@@ -132,7 +132,7 @@ a:hover {
 .textH {
   margin-top: 10px;
   margin-top: 20px;
-  font-size:larger;
+  font-size: x-large;
   color: rgb(11, 1, 1);
 }
 
@@ -296,9 +296,11 @@ button:hover i, button:focus i, button:active i {
   .inner {
     display: block;
   }
+
   .textH {
     display: block;
     width: 100%;
+    text-align: center;
     margin-top: 10px;
     margin-top: 20px;
     color: rgb(249, 241, 241);
@@ -321,19 +323,22 @@ button:hover i, button:focus i, button:active i {
 @media (max-width: 414px) {
   .inner {
     display: block;
-    
+
   }
-  .wrapper { 
-     background-image:none;
+
+  .wrapper {
+    background-image: none;
   }
+
   .textH {
     display: block;
     width: 100%;
     margin-top: 10px;
     margin-top: 20px;
-   color: black;
-   text-align: center;
-   font-size:medium;
+    color: black;
+    text-align:center;
+    font-weight: bold;
+    font-size: medium;
   }
 
   .inner .image-holder {
