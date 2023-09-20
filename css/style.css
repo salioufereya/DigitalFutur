@@ -58,7 +58,7 @@ a:hover {
 }
 
 .wrapper {
-  min-height: 95vh;
+  min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -132,7 +132,8 @@ a:hover {
 .textH {
   margin-top: 10px;
   margin-top: 20px;
-  color: rgb(6, 6, 6);
+  font-size: x-large;
+  color: rgb(11, 1, 1);
 }
 
 .far {
@@ -301,7 +302,7 @@ button:hover i, button:focus i, button:active i {
     text-align: center;
     margin-top: 10px;
     margin-top: 20px;
-    color: rgb(8, 1, 1);
+    color: rgb(249, 241, 241);
   }
 
   .inner .image-holder {
@@ -321,6 +322,7 @@ button:hover i, button:focus i, button:active i {
 @media (max-width: 414px) {
   .inner {
     display: block;
+    
   }
   .wrapper { 
      background-image:none;
@@ -330,9 +332,8 @@ button:hover i, button:focus i, button:active i {
     width: 100%;
     margin-top: 10px;
     margin-top: 20px;
-    margin-left: 30px;
    color: black;
-   text-align: right;
+   text-align: center;
    font-size:medium;
   }
 
